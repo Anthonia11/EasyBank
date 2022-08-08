@@ -1,0 +1,52 @@
+.about{
+    background: $neutral-color2;
+    //opacity: 55%;
+}
+.about-container{
+    margin: 30px;
+}
+
+.choose{
+    margin-top: 20px;
+}
+.choose h2{
+    color: $footer-color;
+    font-size: 30px;
+    font-weight: 500;
+}
+.choose p{
+    color: $neutral-color6;
+    font-size: small;
+}
+.about-we{
+    display: flex;
+    justify-content: space-between;
+}
+.about-we-easy{
+    
+    margin: 20px 20px;
+    padding:15px 10px ;
+}
+.about-we-easy h5{
+    color: $neutral-color5;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.about-we-easy p{
+    color: $neutral-color6;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.about-we-easy>img{
+    margin-top: 40px;
+    height:50px ;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+

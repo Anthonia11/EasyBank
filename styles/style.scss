@@ -1,0 +1,140 @@
+@import './configure';
+@import './home';
+@import './about';
+@import './blog';
+@import'./contact';
+@import './request';
+
+.main-container{
+    max-width:1440px;
+    background: $neutral-color3;
+    // min-height: 1440px;ss
+}
+
+header{
+    background: $neutral-color4;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    
+    a{
+        text-decoration: none;
+        color:$index-color;
+        font-size: 1rem;
+        font-weight: 500;
+
+        @include transition-ease;
+        &:hover{
+            color:$primary-color ;
+        }
+    }
+
+
+.request{
+    display: flex;
+    background: linear-gradient( to right, $secondary-color, $index-color);
+    height:40px;
+    border-radius: 15px ;
+    padding: 10px;
+    font-size: small;
+    color: $neutral-color4;
+
+}
+}
+.request>a{
+    text-decoration: none;
+    
+}
+.logo{
+    font-size: 1rem;
+    font-weight: 700;
+    color: $primary-color;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+footer{
+    background: $footer-color;
+    height:100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin:20px 20px;
+}
+
+.logos{
+    flex:1;
+    color: $neutral-color4;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.social-icons{
+    bottom:1rem;
+    padding: 0.4rem;
+}
+.social-icons > a{
+    color: white;
+    text-decoration: none;
+
+     @include transition-ease;
+    &:hover{
+        color: $neutral-color;
+    }
+}
+
+.container nav {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+    
+
+    a{
+        text-decoration: none;
+        color: $neutral-color;
+    }
+}
+.right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+   
+}
+
+    .right>a{
+        text-decoration: none;
+        color: $neutral-color;
+    }
+.footer-text {
+    display: flex;
+    align-items: center;
+    color: $neutral-color;
+}
+.footer-text>a{
+    color: $neutral-color3;
+    text-decoration: none;
+}
+
+@media(max-width: 375px){
+    
+}

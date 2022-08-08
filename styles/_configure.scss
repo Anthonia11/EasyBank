@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // overflow: hidden;
+    outline: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+    line-height: 1.7;
+    font-size: 18px;
+    cursor: cell;
+}
+/*Primary colors*/
+$primary-color:hsl(233, 26%, 24%);
+$secondary-color:hsl(136, 65%, 51%);
+$index-color: hsl(192, 70%, 51%);
+$footer-color:hsl(233, 26%, 24%);
+/*Neutral*/
+$neutral-color:hsl(233, 8%, 62%);
+$neutral-color2:hsl(220, 16%, 96%);
+$neutral-color3:hsl(0, 0%, 98%);
+$neutral-color4:hsl(0, 0%, 100%);
+$neutral-color5:hsl(240, 15%, 12%);
+$neutral-color6:rgb(26, 14, 19);
+
+@mixin transition-ease {
+    transition:all 0.5s ease-in-out;
+    
+}

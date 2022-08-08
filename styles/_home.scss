@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+
+.words{
+    margin-left: 100px;
+    
+}
+.home h2{
+font-size: xx-large;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.home #img2 {
+    background: linear-gradient(to right, $secondary-color, $primary-color);
+    width: 500px;
+    height: 500px;
+   // right: 300px;
+    
+    //margin-top: 200px;
+}
+
+.requests{
+    background: linear-gradient( to right, $secondary-color, $index-color);
+    height:40px;
+    border-radius: 15px ;
+    padding: 10px;
+    font-size: small;
+    color: $neutral-color4;
+
+
+}
+
+a.requests{
+    text-decoration: none;
+    @include transition-ease;
+        &:hover{
+            color:$primary-color ;
+        }
+}

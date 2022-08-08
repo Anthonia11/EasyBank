@@ -1,0 +1,484 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, "sans-serif";
+  line-height: 1.7;
+  font-size: 18px;
+  cursor: cell;
+}
+
+/*Primary colors*/
+/*Neutral*/
+.home {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.words {
+  margin-left: 100px;
+}
+
+.home h2 {
+  font-size: xx-large;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.home #img2 {
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(233deg, 26%, 24%));
+  width: 500px;
+  height: 500px;
+}
+
+.requests {
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: small;
+  color: hsl(0deg, 0%, 100%);
+}
+
+a.requests {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+a.requests:hover {
+  color: hsl(233deg, 26%, 24%);
+}
+
+.about {
+  background: hsl(220deg, 16%, 96%);
+}
+
+.about-container {
+  margin: 30px;
+}
+
+.choose {
+  margin-top: 20px;
+}
+
+.choose h2 {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.choose p {
+  color: rgb(26, 14, 19);
+  font-size: small;
+}
+
+.about-we {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-we-easy {
+  margin: 20px 20px;
+  padding: 15px 10px;
+}
+
+.about-we-easy h5 {
+  color: hsl(240deg, 15%, 12%);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.about-we-easy p {
+  color: rgb(26, 14, 19);
+  margin-bottom: 15px;
+  font-size: small;
+}
+
+.about-we-easy > img {
+  margin-top: 40px;
+  height: 50px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.blog {
+  background: hsl(0deg, 0%, 98%);
+}
+
+.blog-container {
+  margin: 40px;
+}
+
+.latest {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 20px;
+  font-weight: 50;
+}
+
+.blog-we {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex: 1;
+}
+
+.blog-we h6 {
+  color: hsl(233deg, 8%, 62%);
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.blog-we p {
+  color: hsl(233deg, 8%, 62%);
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.blog-we h5 {
+  color: hsl(192deg, 70%, 51%);
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.blog-we-easy0 {
+  background: hsl(0deg, 0%, 100%);
+  font-size: small;
+  color: hsl(233deg, 8%, 62%);
+  margin: 20px 20px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+}
+
+.blog-we-easy1 {
+  background: hsl(0deg, 0%, 100%);
+  font-size: small;
+  color: hsl(233deg, 8%, 62%);
+  margin: 20px 20px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+}
+
+.blog-we-easy2 {
+  background: hsl(0deg, 0%, 100%);
+  font-size: small;
+  color: hsl(233deg, 8%, 62%);
+  margin: 20px 20px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+}
+
+.blog-we-easy3 {
+  background: hsl(0deg, 0%, 100%);
+  font-size: small;
+  color: hsl(233deg, 8%, 62%);
+  margin: 20px 20px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+}
+
+img {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact {
+  background: hsl(233deg, 26%, 24%);
+}
+
+.contact-container {
+  margin: 10px;
+  width: 100%;
+}
+
+.middle {
+  height: 150px;
+}
+
+.contact-11 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: hsl(233deg, 8%, 62%);
+  text-align: center;
+}
+
+.socials-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.socials-icons > a {
+  color: hsl(233deg, 8%, 62%);
+  text-decoration: none;
+}
+
+.socials-icons > i {
+  color: hsl(233deg, 26%, 24%);
+}
+
+.controlls {
+  background: hsl(0deg, 0%, 100%);
+  width: 70%;
+  margin: auto;
+}
+
+.control {
+  font-size: large;
+  font-weight: 400;
+}
+
+.contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formRow {
+  width: 95%;
+  gap: 30px;
+  margin: 30px 20px 30px 20px;
+  display: flex;
+}
+
+.inputsRows {
+  width: 50%;
+}
+
+.inputsRow {
+  width: 95%;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  border: none;
+  background: none;
+  border: 1px solid hsl(233deg, 8%, 62%);
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 1.5vw;
+}
+
+#message {
+  height: 150px;
+}
+
+.send1 {
+  font-size: 15px;
+  padding: 15px;
+  margin: 25px 2.5%;
+  background: hsl(233deg, 26%, 24%);
+  border: none;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+.request {
+  background: hsl(233deg, 26%, 24%);
+}
+
+.request-container {
+  margin: 10px;
+  width: 100%;
+}
+
+.request-12 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: hsl(233deg, 8%, 62%);
+  text-align: center;
+}
+
+.request-13 {
+  background: hsl(0deg, 0%, 100%);
+  width: 70%;
+  margin: auto;
+}
+
+.control {
+  font-size: large;
+  font-weight: 400;
+}
+
+.contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formRow {
+  width: 95%;
+  gap: 30px;
+  margin: 30px 20px 30px 20px;
+  display: flex;
+}
+
+.inputsRows {
+  width: 50%;
+}
+
+.inputsRow {
+  width: 95%;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  border: none;
+  background: none;
+  border: 1px solid hsl(233deg, 8%, 62%);
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 1.5vw;
+}
+
+#message {
+  height: 150px;
+}
+
+.send1 {
+  font-size: 15px;
+  padding: 15px;
+  margin: 25px 2.5%;
+  background: hsl(233deg, 26%, 24%);
+  border: none;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+.main-container {
+  max-width: 1440px;
+  background: hsl(0deg, 0%, 98%);
+}
+
+header {
+  background: hsl(0deg, 0%, 100%);
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: hsl(192deg, 70%, 51%);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.nav-menu a:hover {
+  color: hsl(233deg, 26%, 24%);
+}
+.nav-menu .request {
+  display: flex;
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: small;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.request > a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(233deg, 26%, 24%);
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+footer {
+  background: hsl(233deg, 26%, 24%);
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 20px;
+}
+
+.logos {
+  flex: 1;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.social-icons {
+  bottom: 1rem;
+  padding: 0.4rem;
+}
+
+.social-icons > a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.social-icons > a:hover {
+  color: hsl(233deg, 8%, 62%);
+}
+
+.container nav {
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.left a {
+  text-decoration: none;
+  color: hsl(233deg, 8%, 62%);
+}
+
+.right {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right > a {
+  text-decoration: none;
+  color: hsl(233deg, 8%, 62%);
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  color: hsl(233deg, 8%, 62%);
+}
+
+.footer-text > a {
+  color: hsl(0deg, 0%, 98%);
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

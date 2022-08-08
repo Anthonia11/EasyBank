@@ -1,0 +1,89 @@
+.contact{
+    background: $primary-color;
+}
+
+.contact-container{
+    margin: 10px;
+    width: 100%;
+}
+.middle{
+    height: 150px;
+}
+.contact-11{
+    font-size: 3rem;
+    font-weight: 500;
+    color: $neutral-color;
+    text-align: center;
+}
+
+.socials-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.socials-icons>a{
+    color: $neutral-color;
+    text-decoration: none;
+}
+.socials-icons>i{
+    color: $primary-color;
+}
+
+.controlls{
+    background: $neutral-color4;
+    width: 70% ; 
+    margin: auto;
+}
+.control{
+    font-size: large;
+    font-weight: 400;
+}
+.contact-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formRow {
+    width: 95%;
+    gap: 30px;
+    margin: 30px 20px 30px 20px ;
+    display: flex;
+}
+.inputsRows {
+    width: 50%;
+}
+
+.inputsRow{
+    width: 95%;
+    margin-bottom:30px ;
+    
+}
+
+.inputs {
+    border: none;
+    background: none;
+    border: 1px solid $neutral-color;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 1.5vw;
+}
+
+#message{
+    height:150px;
+}
+
+.send1 {
+    font-size: 15px;
+    padding: 15px;
+    margin: 25px 2.5%;
+    background:$primary-color;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
